@@ -20,7 +20,7 @@ export default {
       projects: [
         // CUSTOMISATION: Add your work here, there's an example at the end
         // Copy & Paste and then add your infos !
-        // Please, don't forget that your images must be scared (1000 x 1000, 2500 x 2500, 5000 x 5000, ...)
+        // Please, don't forget that your images must be square (1000 x 1000, 2500 x 2500, 5000 x 5000, ...)
         {
           title: "Project Title",
           img: "img1.jpg",
