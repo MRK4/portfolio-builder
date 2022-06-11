@@ -4,9 +4,10 @@
 
       <!-- PROFILE PICTURE -->
       <div class="flex flex-col justify-center items-center space-y-6">
+        <!-- Image from: https://www.pexels.com/fr-fr/photo/femme-vetue-d-une-robe-sans-manches-bleue-701740/ -->
         <img class="outline-2 border-4 border-cta shadow-lg shadow-cta/50 w-auto h-48 rounded-full" src="@/assets/imgs/avatar.jpg" alt="Profile Picture">
         <div class="space-y-2">
-          <h1 class="text-4xl font-semibold text-customblack dark:text-white">{{ nickname }}</h1>
+          <h1 class="text-4xl font-semibold text-customdarkmodebg dark:text-white">{{ nickname }}</h1>
           <h2 class="text-lg text-customgray">{{ job }}</h2>
         </div>
       </div>
@@ -14,7 +15,7 @@
       <div class="space-y-3">
         <!-- SOCIAL MEDIAS -->
         <div class="flex flex-row justify-between items-center space-x-6">
-          <a v-for="social in socials" :key="social" :href="social.url" class="transition-all ease-in-out duration-150 transform p-1 text-cta hover:text-customblack dark:hover:text-white hover:scale-125">
+          <a v-for="social in socials" :key="social" :href="social.url" class="transition-all ease-in-out duration-150 transform p-1 text-cta hover:text-customdarkmodebg dark:hover:text-white hover:scale-125">
             <i class="fa-brands fa-xl" :class="`fa-${social.name}`"></i>
           </a>
         </div>

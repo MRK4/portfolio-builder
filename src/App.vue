@@ -1,5 +1,5 @@
 <template>
-  <div class="accent-cta bg-white dark:bg-darkmode_background p-8 flex flex-col justify-center items-center space-y-12 scroll-smooth">
+  <div class="accent-cta bg-customlightmodebg dark:bg-darkmode_background p-8 flex flex-col justify-center items-center space-y-12 scroll-smooth">
     <div class="w-full flex flex-row justify-end">
       <div class="cursor-pointer p-2">
         <i class="toggle1 icon-light fa-regular fa-moon fa-lg text-cta fill-current drop-shadow" alt="îcone de lune"></i>
@@ -7,7 +7,7 @@
       </div>
     </div>
     <Portfolio_Header/>
-    <div class="flex w-1/3 h-px bg-customblack dark:bg-customgray opacity-50"></div>
+    <div class="flex w-1/3 h-px bg-customdarkmodebg dark:bg-customgray opacity-50"></div> <!-- CUSTOMISATION: Delete this line if you don't want the line between your infos & your work -->
     <Portfolio_Grid_Showcase />
     <Portfolio_Footer />
   </div>
