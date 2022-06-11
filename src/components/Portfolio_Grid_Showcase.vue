@@ -17,28 +17,30 @@ export default {
   data() {
     return {
       projects: [
+        // CUSTOMISATION: Add your work here, there's an example at the end
+        // Copy & Paste and then add your infos !
         {
-          title: "Project Title 1",
+          title: "Project Title",
           img: "img1.jpg",
           url: "https://www.google.com",
         },
         {
-          title: "Project Title 2",
+          title: "Project Title",
           img: "img2.jpg",
           url: "https://www.google.com",
         },
         {
-          title: "Project Title 2",
+          title: "Project Title",
           img: "img3.jpg",
           url: "https://www.google.com",
         },
         {
-          title: "Project Title 2",
+          title: "Project Title",
           img: "img4.jpg",
           url: "https://www.google.com",
         },
         {
-          title: "Project Title 2",
+          title: "Project Title",
           img: "img5.jpg",
           url: "https://www.google.com",
         },
