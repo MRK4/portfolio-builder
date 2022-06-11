@@ -1,5 +1,5 @@
 <template>
-  <div class="accent-cta bg-white dark:bg-darkmode_background p-16 flex flex-col justify-center items-center space-y-12 scroll-smooth">
+  <div class="accent-cta bg-white dark:bg-darkmode_background p-8 flex flex-col justify-center items-center space-y-12 scroll-smooth">
     <div class="w-full flex flex-row justify-end">
       <div class="cursor-pointer p-2">
         <i class="toggle1 icon-light fa-regular fa-moon fa-lg text-cta fill-current drop-shadow" alt="îcone de lune"></i>
