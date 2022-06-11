@@ -4,6 +4,7 @@
 
       <!-- PROFILE PICTURE -->
       <div class="flex flex-col justify-center items-center space-y-6">
+        <!-- CUSTOMISATION: Change your picture here -->
         <!-- Image from: https://www.pexels.com/fr-fr/photo/femme-vetue-d-une-robe-sans-manches-bleue-701740/ -->
         <img class="outline-2 border-4 border-cta shadow-lg shadow-cta/50 w-auto h-48 rounded-full" src="@/assets/imgs/avatar.jpg" alt="Profile Picture">
         <div class="space-y-2">
@@ -22,7 +23,7 @@
 
         <!-- ADDITIONAL INFO -->
         <div>
-          <p class="text-sm text-customgray"> {{ details }} </p>
+          <p class="text-sm text-center text-customgray"> {{ details }} </p>
         </div>
       </div>
 
